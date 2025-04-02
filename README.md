@@ -15,7 +15,7 @@ type url.txt | feroxbuster.exe --stdin --auto-tune -k -A  --dont-extract-links -
 
 2025/4/2 上传0.2版本
 
-1.  对所有字典进行精简，用一些规则去除了不常见的路径
+1.  对所有字典进行精简化，用一些规则去除了不常见的路径
 2.  新增top15w.txt 和 top3w.txt 这两个是综合github上的字典进行合并提取出来的出现频率最高的路径(不是像top5000.txt一样扫出来的)。 新增swagger_api.txt ,这个是用swagger-hack2.0.py扫了大概700个swagger.json页面得到的所有路径没有添加别的。
 
 
