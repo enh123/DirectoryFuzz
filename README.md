@@ -10,13 +10,13 @@ top5000目录字典是我用github上的各种目录字典(几乎包含了所有
 
 使用如下命令即可实现批量扫描
 
-type url.txt | feroxbuster.exe --stdin --auto-tune -k -A  -s 200,302 --dont-extract-links --no-state --no-recursion -o result.txt -t 20 -C 404 -W 0 -w top5000.txt
+type url.txt | feroxbuster.exe --stdin --auto-tune -k -A  --dont-extract-links --no-state --no-recursion -o result.txt -t 20 -C 404 -w top5000.txt
 
 
+2025/4/2 更新
 
-
-
-
+1.  对所有字典进行精简，用一些规则去除了不常见的路径
+2.  新增top15w.txt 和 top3w.txt 这两个是综合github上的字典进行合并提取出来的出现频率最高的路径(不是像top5000.txt一样扫出来的)。 新增swagger_api.txt ,这个是用swagger-hack2.0.py扫了大概700个swagger.json页面得到的所有路径没有添加别的。
 
 
 
