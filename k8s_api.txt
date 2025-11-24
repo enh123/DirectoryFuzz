@@ -225,4 +225,4 @@ readyz/poststarthook/storage-object-count-tracker-hook
 readyz/poststarthook/storage-readiness
 readyz/shutdown
 version
-well-known/openid-configuration
+.well-known/openid-configuration
