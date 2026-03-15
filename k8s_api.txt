@@ -226,3 +226,4 @@ readyz/poststarthook/storage-readiness
 readyz/shutdown
 version
 .well-known/openid-configuration
+pods
