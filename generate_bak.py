@@ -15,7 +15,7 @@ class BakFileNameGen:
         self.domain_variant_list = []
         self.date_list = []
         self.bak_suffix_list = ['.zip', '.rar', '.tar.gz', '.tgz', '.tar.bz2', '.tar', '.7z', '.bak', '.gz', '.tar.tgz',
-                                '.backup','\.sql']
+                                '.backup','.sql']
 
         self.filename_list = [
             '0.rar', '0.zip', '1.bak', '1.rar', '1.zip', '2013.bak', '2016.bak', '2025.bak',
